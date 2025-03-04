@@ -44,3 +44,7 @@ body{
 .cabecalho__menu__link:hover{
     color: grey;
 }
+
+.conteudo{
+    width: 100vw;
+}
