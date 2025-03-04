@@ -36,3 +36,11 @@ body{
     align-items: center;
     gap: 20px;
 }
+
+.cabecalho__menu__link{
+    transition: color 0.5s;
+}
+
+.cabecalho__menu__link:hover{
+    color: grey;
+}
