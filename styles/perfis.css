@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: gray;
+    box-sizing: border-box;
+    font-family: "Noto Sans",sans-serif;
+    font-size: 12px;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+    background-color: black;
+}
+
+.titulo{
+    margin: 20.1px 0px;
+    color: white;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.perfis{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.perfis__perfil{
+    text-align: center;
+}
+
+.perfis__perfil__logo{
+    width: 100px;
+    border-radius: 5%;
+    border: 2px solid black;
+}
+
+.perfis__perfil__nome{
+    font-size: 12px;
+}
+
+.perfis__perfil:hover .perfis__perfil__logo{
+    border: 2px solid white;
+}
+
+.perfis__perfil:hover .perfis__perfil__nome{
+    color: white;
+}
+
+.botao-gerenciar-perfis{
+    display: flex;
+    padding: 6.5px 19.5px;
+    border: 1px solid gray;
+    margin-top: 52px;
+}
+
+.botao-gerenciar-perfis:hover{
+    color: white;
+    border-color: white;
+}
