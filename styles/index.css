@@ -16,7 +16,7 @@ body{
     justify-content: center;
     height: 100vh;
     flex-direction: column;
-    background-color: black;
+    background-color: #141414;
 }
 
 .titulo{
