@@ -38,13 +38,39 @@ body{
 }
 
 .cabecalho__menu__link{
-    transition: color 0.5s;
+    transition: color 0.4s;
 }
 
 .cabecalho__menu__link:hover{
     color: grey;
 }
-
-.conteudo{
+ 
+.banner{
     width: 100vw;
+    height: 70vh;
+}
+
+.banner__imagem{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.primeira-fila{
+    position: absolute;
+    transform: rotate();
+}
+
+.segmento{
+    margin-left: 40px;
+}
+
+.segmento__titulo{
+    margin-bottom: 5px;
+    font-size: 1rem;
+}
+
+.segmento__carrossel{
+    display: flex;
+    gap: 5px;
 }
